@@ -159,3 +159,17 @@ $ ./step0_repl
 user> hello
 hello
 ```
+
+Now go up one level and run the mal tests for step0:
+
+```
+$ cd ..
+$ make "test^c^step0"
+make -C c step0_repl
+...
+TEST RESULTS (for ../tests/step0_repl.mal):
+    0: soft failing tests
+    0: failing tests
+    4: passing tests
+    4: total tests
+```
