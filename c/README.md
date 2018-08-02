@@ -39,7 +39,7 @@ Start with a trivial `step0_repl.c` file:
 #include <stdlib.h>
 
 int main(void) {
-	return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
 ```
 
